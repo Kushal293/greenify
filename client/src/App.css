@@ -1,0 +1,276 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.app {
+  display: flex;
+}
+
+main {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 250px;
+  background-color: red;
+  color: green;
+
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+  padding-top: 40px;
+  background-color: white;
+  border-right: 2px solid lightgray;
+}
+
+.sidebar h2 {
+  font-size: xx-large;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  list-style: none;
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.menu li {
+  cursor: pointer;
+}
+
+.navbar {
+  width: calc(100vw - 250px);
+  height: 100px;
+  background-color: blue;
+  padding: 20px 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-bottom: 2px solid lightgray;
+}
+
+.navbar div{
+  width: 350px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: 2px solid gray;
+}
+
+.navbar input {
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 100%;
+}
+
+.infocard {
+  width: 750px;
+  height: 400px;
+  border: 2px solid lightgray;
+  /* margin-left: 20px; */
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 30px;
+  /* background-color: lightgreen; */
+}
+
+.infocard h2 {
+  margin-bottom: 65px;
+  color: darkgreen;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.place {
+  color: black;
+  font-size: 26px;
+  margin-left: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.info {
+  height: 150px;
+  width: 150px;
+  border: 1px solid green;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(lightgreen, white);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.card p {
+  color: gray;
+  font-weight: bold;
+}
+
+.citylist {
+    width: 350px;
+    min-height: 400px;
+    margin-top: 50px;
+    border: 2px solid lightgray;
+    padding: 30px 0px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.citylist h1 {
+  margin-left: 30px;
+  color: darkgreen;
+}
+
+.cities {
+  padding: 20px 0px;
+  /* border: 1px solid gray; */
+  border-radius: 10px;
+}
+
+.city {
+  /* border-top: 1px solid black; */
+  /* border-bottom: 1px solid black; */
+  /* border-radius: 10px; */
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  /* background: lightgreen; */
+}
+
+.city p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.city span{
+  color: gray;
+  font-weight: bold;
+} 
+
+.search {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputList {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.inp {
+  width: 300px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: 2px solid gray;
+}
+.temp-inp {
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 100%;
+}
+
+.getBtn {
+  padding: 10px 40px;
+  background-color: green;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.greenery {
+  width: 350px;
+  height: 500px;
+  border: 2px solid lightgray;
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.greenery h2 {
+  margin-bottom: 10px;
+  color: darkgreen;
+  font-weight: bold;
+  font-size: 30px;
+}
+.greenery span {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.green-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.green-info {
+  height: 120px;
+  width: 120px;
+  border: 1px solid green;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(lightgreen, white);
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.suggestions {
+  width: 1000px;
+  min-height: 400px;
+  padding: 30px;
+  background-color: lightgreen;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.suggest {
+  font-size: 18px;
+  font-weight: bold;
+}
