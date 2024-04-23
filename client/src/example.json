@@ -1,0 +1,160 @@
+{
+    "red_and_yellow": {
+        "type": "red and yellow soil",
+        "img": "https://cdn1.byjus.com/wp-content/uploads/2018/11/free-ias-prep/2017/01/16105436/Laterite-Soil.jpg",
+        "suggestion": [
+            {
+                "name": "1.Neem (Azadirachta indica):",
+                "img": "https://5.imimg.com/data5/SELLER/Default/2021/5/RU/EL/LQ/76591799/neem-tree-500x500.jpg",
+                "info": [
+                    " Neem trees are highly adaptable and can thrive in various soil types, including red and yellow soil.",
+                    "They have excellent air-purifying properties and are known for their medicinal value."
+                ]
+            },
+            {
+                "name": "2.Babul (Acacia nilotica):",
+                "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdgFVSwxESzuQN9kcuY9ynFQpTReS2S7wDIQeTlr5_wtmAtwSQ8_8bx5kvpugS3xRYnmxwOvnB3UeXSHKq-40hShyphenhyphenzqdjObCuQ7wd3MpTzYt3wGb1trFVicgWYgQlj41o3vkJLCuJMQNZk/s1600/babul-tree-1.jpg",
+                "info": [
+                    " Babul trees, also known as Indian gum arabic tree, are well-suited to arid and semi-arid regions with red and yellow soil. ",
+                    "They have deep roots that help stabilize soil and prevent erosion."
+                ]
+            },
+            {
+                "name": "3.Indian Rosewood (Dalbergia sissoo):",
+                "img": "https://www.public.asu.edu/~camartin/plants/Plant%20html%20files/Dalbergia%20sissoo.jpg",
+                "info": [
+                    "Indian Rosewood trees are native to the Indian subcontinent and can tolerate various soil types, including red and yellow soil."
+                ]
+            }
+        ]
+    },
+    "black": {
+        "type": "black soil",
+        "img": "https://rukminim2.flixcart.com/image/850/1000/krayqa80/soil-manure/6/n/q/1-black-soil-deepak-badkur-original-imag54cugpczpuux.jpeg?q=90&crop=false",
+        "suggestion": [
+            {
+                "name": "1.Neem (Azadirachta indica):",
+                "img": "https://5.imimg.com/data5/SELLER/Default/2021/5/RU/EL/LQ/76591799/neem-tree-500x500.jpg",
+                "info": [
+                    "Neem trees are highly adaptable and can thrive in various soil types, including red and yellow soil.",
+            "They have excellent air-purifying properties and are known for their medicinal value."
+                ]
+            },
+            {
+                "name": "2.Banyan (Ficus benghalensis): ",
+                "img": "https://static.vecteezy.com/system/resources/previews/015/935/408/large_2x/giant-banyan-tree-planted-in-concrete-pots-in-a-park-full-of-grass-photo.JPG",
+                "info": [
+                    "Banyan trees are iconic in India and can adapt well to black soil.",
+                "They have deep roots that help stabilize soil and prevent erosion."
+                ]
+            },
+            {
+                "name": "3.Indian Rosewood (Dalbergia sissoo): ",
+                "img": "https://www.public.asu.edu/~camartin/plants/Plant%20html%20files/Dalbergia%20sissoo.jpg",
+                "info": [
+                    "Indian Rosewood trees are native to the Indian subcontinent and can tolerate various soil types, including black soil."
+                ]
+            }
+        ]
+    },
+    "alluvial": {
+        "type": "alluvial soil",
+        "img": "https://cdn1.byjus.com/wp-content/uploads/2018/11/free-ias-prep/2017/01/16101459/6-1024x768.jpg",
+        "suggestion": [
+            {
+                "name": "1.Eucalyptus (Eucalyptus spp.):",
+                "img": "https://cdn.britannica.com/68/128168-050-7216CE15/Eucalyptus-tree.jpg",
+                "info": [
+                    "Eucalyptus trees are fast-growing and can adapt well to alluvial soil."
+                ]
+            },
+            {
+                "name": "2.Babul (Acacia nilotica):",
+                "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdgFVSwxESzuQN9kcuY9ynFQpTReS2S7wDIQeTlr5_wtmAtwSQ8_8bx5kvpugS3xRYnmxwOvnB3UeXSHKq-40hShyphenhyphenzqdjObCuQ7wd3MpTzYt3wGb1trFVicgWYgQlj41o3vkJLCuJMQNZk/s1600/babul-tree-1.jpg",
+                "info": [
+                    " Babul trees, also known as Indian gum arabic tree, are well-suited to arid and semi-arid regions with red and yellow soil. ",
+                    "They have deep roots that help stabilize soil and prevent erosion."
+                ]
+            },
+            {
+                "name": "3.Teak (Tectona grandis): ",
+                "img": "https://media.istockphoto.com/id/637738128/photo/teak-garden.jpg?s=612x612&w=0&k=20&c=fJZPI3qWPEZ-ee1mwQaRae968rfYfu0DDyi3Ky04qeM=",
+                "info": [
+                    "Teak trees are highly valued for their durable timber and can thrive in alluvial soil."
+                ]
+            }
+        ]
+    },
+    "laterite": {
+        "type": "laterite soil",
+        "img": "https://st.adda247.com/https://thumbs.dreamstime.com/b/laterite-soil-texture-red-gravel-floor-background-45027634.jpg",
+        "suggestion": [
+            {
+                "name": "1.Acacia Mangium (Acacia mangium):",
+                "img": "https://m.media-amazon.com/images/I/91kc9CEkLTL._AC_UF1000,1000_QL80_.jpg",
+                "info": [
+                    "Acacia Mangium trees are well-suited to laterite soil and are known for their rapid growth."
+                ]
+            },
+            {
+                "name": "2.Teak (Tectona grandis):",
+                "img": "https://media.istockphoto.com/id/637738128/photo/teak-garden.jpg?s=612x612&w=0&k=20&c=fJZPI3qWPEZ-ee1mwQaRae968rfYfu0DDyi3Ky04qeM=",
+                "info": [
+                    "Teak trees are highly valued for their durable timber and can thrive in laterite soil.",
+                    "They have deep roots that help stabilize soil and prevent erosion."
+                ]
+            },
+            {
+                "name": "3.Mahogany (Swietenia mahagoni): ",
+                "img": "https://www.naturalmangoes.com/wp-content/uploads/2023/01/Mahogany-Tree-Forestry.jpg",
+                "info": [
+                    "Mahogany trees can adapt well to laterite soil condition"
+                ]
+            }
+        ]
+    },
+    "desert": {
+        "type": "desert soil",
+        "img": "https://s3-us-west-1.amazonaws.com/contentlab.studiod/getty/4b50dd2c984a48b5ace94f304cb37cf1.jpg",
+        "suggestion": [
+            {
+                "name": "1.Prosopis cineraria (Khejri): ",
+                "img": "https://tropical.theferns.info/plantimages/sized/1/8/182b111eced4620694c89a51f7cd79141da14425_480px.jpg",
+                "info": [
+                    "Khejri trees are native to arid and semi-arid regions of India, including desert areas.",
+            "They are well-adapted to sandy and saline soils and can withstand drought conditions."
+                ]
+            },
+            {
+                "name": "2.Tamarix indica (Indian Tamarisk): ",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/d/da/Tamaris3.jpg",
+                "info": [
+                    "Indian Tamarisk trees are well-adapted to saline soils and can tolerate desert conditions. ",
+            "They have deep root systems that help stabilize soil and prevent erosion.",
+            "Indian Tamarisk trees provide habitat for wildlife and can be used for reforestation in degraded areas."
+                ]
+            }
+        ]
+    },
+    "mountain": {
+        "type": "mountain soil",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHA4_idAi6WkfnQdYrjXX5EfVSqXauQUFizuWUh67oog&s",
+        "suggestion": [
+            {
+                "name": "1. Quercus spp. (Oak):",
+                "img": "https://images.unsplash.com/photo-1611859328053-3cbc9f9399f4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b2FrJTIwdHJlZXxlbnwwfHwwfHx8MA%3D%3D",
+                "info": [
+                    "Oak trees are well-suited to mountainous regions and can thrive in rocky soils."
+                ]
+            },
+            {
+                "name": "2. Pinus spp. (Pine):",
+                "img": "https://images.unsplash.com/photo-1611859328053-3cbc9f9399f4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b2FrJTIwdHJlZXxlbnwwfHwwfHx8MA%3D%3D",
+                "info": [
+                    "Pine trees are commonly found in mountainous regions and can grow in rocky, stony soils.",
+                    "Abies spp. (Fir): Fir trees are well-adapted to mountainous terrain and can tolerate rocky soils."
+                ]
+            }
+        ]
+    }
+}

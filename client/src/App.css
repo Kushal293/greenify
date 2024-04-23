@@ -259,18 +259,91 @@ main {
   font-weight: bold;
 }
 
-.suggestions {
+.suggestion-container {
   width: 1000px;
   min-height: 400px;
-  padding: 30px;
+  position: relative;
+}
+
+.suggestions {
+  width: 100%;
+  min-height: 400px;
+  /* padding: 50px; */
   background-color: lightgreen;
   border-radius: 20px;
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  /* gap: 30px; */
+  overflow-x: hidden;
+  position: relative;
+}
+
+.single-suggestion {
+  flex: 0 0 100%;
+  padding: 60px;
 }
 
 .suggest {
   font-size: 18px;
   font-weight: bold;
+}
+
+.tree-info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 20px;
+}
+
+.img-container {
+  width: 60%;
+  margin-top: 30px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tree-img {
+  height: 300px;
+  max-width: 400px;
+}
+
+.info-container {
+  flex: 1;
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.arrow-left {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.arrow-right {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
