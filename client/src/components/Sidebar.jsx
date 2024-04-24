@@ -10,7 +10,6 @@ const Sidebar = () => {
             <li><Link to={"/analysis"} style={{textDecoration: "none", color: "green"}} >Analysis</Link></li>
             <li><Link to={"/solution"} style={{textDecoration: "none", color: "green"}} >Solution</Link></li>
             <li><Link to={"/about"} style={{textDecoration: "none", color: "green"}} >About Us</Link></li>
-            <li><Link to={"/contact"} style={{textDecoration: "none", color: "green"}} >Contact</Link></li>
         </ul>
     </div>
   )

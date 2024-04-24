@@ -5,7 +5,7 @@ import App from './App.jsx'
 import './index.css'
 import Analysis from './Analysis.jsx';
 import Solution from './Solution.jsx';
-import Contact from './Contact.jsx';
+import Contact from './components/Contact.jsx';
 import About from './About.jsx';
 
 const router = createBrowserRouter([
@@ -24,11 +24,7 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <About />
-  },
-  {
-    path: "/contact",
-    element: <Contact />
-  },
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

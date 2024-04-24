@@ -5,6 +5,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 .app {
   display: flex;
 }
@@ -17,8 +22,9 @@ main {
 }
 
 .sidebar {
-  height: 100vh;
-  width: 250px;
+  height: 200vh;
+  min-width: 250px;
+  max-width: 250px;
   background-color: red;
   color: green;
 
@@ -131,34 +137,41 @@ main {
   font-weight: bold;
 }
 
+.latest-news::-webkit-scrollbar {
+  display: none;
+}
+
 .citylist {
     width: 350px;
-    min-height: 400px;
-    margin-top: 50px;
+    height: 270px;
     border: 2px solid lightgray;
-    padding: 30px 0px;
+    padding: 20px 0px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    margin-bottom: 20px;
+    /* gap: 10px; */
 }
 
 .citylist h1 {
   margin-left: 30px;
+  font-size: 25px;
+  /* background-color: aqua; */
   color: darkgreen;
 }
 
 .cities {
-  padding: 20px 0px;
+  padding: 0px 10px;
   /* border: 1px solid gray; */
   border-radius: 10px;
+  /* background: #000; */
 }
 
 .city {
   /* border-top: 1px solid black; */
   /* border-bottom: 1px solid black; */
   /* border-radius: 10px; */
-  padding: 20px 20px;
+  padding: 10px 20px;
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -168,12 +181,13 @@ main {
 
 .city p {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .city span{
   color: gray;
   font-weight: bold;
+  font-size: 12px;
 } 
 
 .search {
@@ -273,10 +287,11 @@ main {
 
 .soilType p {
   font-weight: bold;
+  font-size: 26px;
 }
 
 .soilType img {
-  height: 80px;
+  height: 90px;
   border-radius: 20px;
 }
 
@@ -367,4 +382,38 @@ main {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+
+
+.story {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.img-story {
+  flex: 1;
+  margin-top: 50px;
+}
+
+.img-story img {
+  width: 80%;
+}
+
+.story p {
+  flex: 1;
+}
+
+.contact {
+  margin-top: 80px;
+}
+
+.contact h1 {
+  margin-bottom: 10px;
+}
+
+.contact p {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

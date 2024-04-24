@@ -2,6 +2,7 @@ import React from 'react'
 import Sidebar from './components/Sidebar'
 import Navbar from './components/Navbar'
 import PastWork from './components/PastWork'
+import Contact from './components/Contact'
 
 const About = () => {
   return (
@@ -12,6 +13,7 @@ const About = () => {
       <Navbar />
       <main style={{flexDirection: "column", alignItems: "center"}}>
         <PastWork />
+        <Contact />
       </main>
     </div>
     </div>
@@ -20,3 +22,5 @@ const About = () => {
 }
 
 export default About
+
+

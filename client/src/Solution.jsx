@@ -12,9 +12,9 @@ const Solution = () => {
     <Sidebar />
     <div>
       <Navbar />
-      <main style={{flexDirection: "column", alignItems: "center"}}>
+      <main style={{flexDirection: "column", alignItems: "center", position: "relative"}}>
         <Search />
-        <Greenery show={"show"} />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Major_soil_types_in_India.jpg" alt="map" style={{position: "absolute", top: "20px", right: "100px", height: "330px"}} />
       </main>
     </div>
     </div>
