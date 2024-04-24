@@ -38,7 +38,7 @@ import { json } from 'react-router-dom';
   
 
 
-const Graph = ({ city, title }) => {
+const Graph = ({ city, title, time }) => {
 //   const [graphData, setGraphData] = useState({});
 
 //   useEffect(() => {
@@ -69,24 +69,24 @@ useEffect(() => {
 
     // const labels = ['14-4-24', '15-4-24', '16-4-24', '17-4-24', '18-4-24', '19-4-24', '20-4-24', '21-4-24', '22-4-24', '23-4-24'];
      const data = {
-      labels:graph?.dates,
+      labels: time == "last" ? graph[0]?.dates : graph[1]?.dates,
       datasets: [
         {
           label: 'Temprature',
-          data: graph?.temperatures,
+          data: time == "last" ? graph[0]?.temperatures : graph[1]?.temperatures,
             // data: gr,
           borderColor: 'rgb(255, 99, 132)',
           backgroundColor: 'rgba(255, 99, 132, 0.5)',
         },
         {
           label: 'Aqi',
-          data: graph?.aqis,
+          data: time == "last" ? graph[0]?.aqis : graph[1]?.aqis,
           borderColor: 'rgba(9, 1, 39, 1)',
           backgroundColor: 'rgba(9, 1, 39, 1)',
         },
         {
             label: 'humidity',
-            data: graph?.humidities,
+            data: time == "last" ? graph[0]?.humidities : graph[1]?.humidities,
             borderColor: 'rgb(53, 162, 235)',
             backgroundColor: 'rrgba(9, 1, 39, 1)',
           },

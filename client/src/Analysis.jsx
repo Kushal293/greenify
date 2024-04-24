@@ -20,8 +20,8 @@ const Analysis = () => {
       <main>
         <div>
        
-        <Graph city={city} title={"Weather Graph for"} />
-        <Graph city={city} title={"Weather Graph for next 10 days of"} />
+        <Graph city={city} title={"Weather Graph for"} time={"last"} />
+        <Graph city={city} title={"Weather Graph for next 10 days of"} time={"next"} />
         </div>
         <Greenery />
       </main>

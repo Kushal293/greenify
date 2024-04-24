@@ -259,6 +259,27 @@ main {
   font-weight: bold;
 }
 
+.soilType {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: burlywood;
+  padding: 20px;
+  border-radius: 20px;
+  height: 100px;
+}
+
+.soilType p {
+  font-weight: bold;
+}
+
+.soilType img {
+  height: 80px;
+  border-radius: 20px;
+}
+
 .suggestion-container {
   width: 1000px;
   min-height: 400px;

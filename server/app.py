@@ -9,6 +9,10 @@ from PIL import Image
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
+from datetime import date
+from datetime import datetime
+from datetime import timedelta
+ 
 # import joblib
 app = Flask(__name__)
 # model = joblib.load('tran_model.py')
@@ -25,6 +29,16 @@ def show_weather_graph(city):
     # Get weather data for the specified city
     weather_data = preprocess_weather_data(city)
     
+# Returns the current local date
+    today = date.today()
+    next_10_days = [(today + timedelta(days=i)).strftime('%d-%m-%Y') for i in range(0, 10)]
+
+# List for previous 10 days
+    last_10_days = [(today - timedelta(days=i)).strftime('%d-%m-%Y') for i in range(9, -1, -1)]
+
+    print("Next 10 days:", next_10_days)
+    print("Previous 10 days:", last_10_days)
+
     # Extract temperature data for the last 10 days
     temperatures_last_10_days = np.random.randint(40, size=(10)).tolist()
     aqi_last_10_days = np.random.randint(40, size=(10)).tolist()
@@ -34,10 +48,11 @@ def show_weather_graph(city):
     
     
     # Construct data for the graph
-    graph_data = {'dates': dates_last_10_days, 'temperatures': temperatures_last_10_days,'aqis':aqi_last_10_days,'humidities':humidity_last_10_days}
+    last_graph_data = {'dates': last_10_days, 'temperatures': temperatures_last_10_days,'aqis':aqi_last_10_days,'humidities':humidity_last_10_days}
+    next_graph_data = {'dates': next_10_days, 'temperatures': temperatures_last_10_days,'aqis':aqi_last_10_days,'humidities':humidity_last_10_days}
     
     # Return graph data as JSON response
-    return jsonify(graph_data)
+    return jsonify([last_graph_data, next_graph_data])
 @app.route('/predict', methods=['POST'])
 def predict():
     # Get data from the request

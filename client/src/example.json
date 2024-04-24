@@ -1,6 +1,6 @@
 {
     "red_and_yellow": {
-        "type": "red and yellow soil",
+        "type": "Red and Yellow soil",
         "img": "https://cdn1.byjus.com/wp-content/uploads/2018/11/free-ias-prep/2017/01/16105436/Laterite-Soil.jpg",
         "suggestion": [
             {
@@ -26,10 +26,15 @@
                     "Indian Rosewood trees are native to the Indian subcontinent and can tolerate various soil types, including red and yellow soil."
                 ]
             }
+        ],
+        "links": [
+            "https://en.wikipedia.org/wiki/Red_soil",
+            "https://www.quora.com/What-is-the-importance-of-red-and-yellow-soil",
+            "https://www.quora.com/What-is-the-major-disadvantage-of-red-soil"
         ]
     },
     "black": {
-        "type": "black soil",
+        "type": "Black soil",
         "img": "https://rukminim2.flixcart.com/image/850/1000/krayqa80/soil-manure/6/n/q/1-black-soil-deepak-badkur-original-imag54cugpczpuux.jpeg?q=90&crop=false",
         "suggestion": [
             {
@@ -55,10 +60,15 @@
                     "Indian Rosewood trees are native to the Indian subcontinent and can tolerate various soil types, including black soil."
                 ]
             }
+        ],
+        "links": [
+            "https://en.wikipedia.org/wiki/Chernozem",
+            "https://www.fao.org/global-soil-partnership/intergovernmental-technical-panel-soils/gsoc17-implementation/internationalnetworkblacksoils/more-on-black-soils/why-are-black-soils-important/en/",
+            "https://indiaagronet.com/indiaagronet/soil_management/CONTENTS/Problems-of-black-soil.htm"
         ]
     },
     "alluvial": {
-        "type": "alluvial soil",
+        "type": "Alluvial soil",
         "img": "https://cdn1.byjus.com/wp-content/uploads/2018/11/free-ias-prep/2017/01/16101459/6-1024x768.jpg",
         "suggestion": [
             {
@@ -83,10 +93,15 @@
                     "Teak trees are highly valued for their durable timber and can thrive in alluvial soil."
                 ]
             }
+        ],
+        "links": [
+            "https://soilsmatter.wordpress.com/2020/02/15/what-are-alluvial-soils/",
+            "https://www.toppr.com/ask/question/explain-the-importance-of-alluvial-soil/",
+            "https://www.quora.com/What-are-the-disadvantages-of-alluvial-soil-for-farmers#:~:text=The%20only%20disadvantage%20is%20that,also%20has%20low%20organic%20matter."
         ]
     },
     "laterite": {
-        "type": "laterite soil",
+        "type": "Laterite soil",
         "img": "https://st.adda247.com/https://thumbs.dreamstime.com/b/laterite-soil-texture-red-gravel-floor-background-45027634.jpg",
         "suggestion": [
             {
@@ -111,10 +126,15 @@
                     "Mahogany trees can adapt well to laterite soil condition"
                 ]
             }
+        ],
+        "links": [
+            "https://en.wikipedia.org/wiki/Laterite",
+            "https://www.quora.com/What-is-the-importance-of-laterite",
+            "https://www.vedantu.com/question-answer/are-the-advantages-and-disadvantages-of-laterite-class-12-biology-cbse-60ef51c7b5da484d2f76410c"
         ]
     },
     "desert": {
-        "type": "desert soil",
+        "type": "Desert soil",
         "img": "https://s3-us-west-1.amazonaws.com/contentlab.studiod/getty/4b50dd2c984a48b5ace94f304cb37cf1.jpg",
         "suggestion": [
             {
@@ -134,10 +154,15 @@
             "Indian Tamarisk trees provide habitat for wildlife and can be used for reforestation in degraded areas."
                 ]
             }
+        ],
+        "links": [
+            "https://en.wikipedia.org/wiki/Aridisol",
+            "https://byjus.com/question-answer/what-are-the-properties-of-desert-soil/",
+            "https://sciencing.com/advantages-disadvantages-deserts-8355586.html"
         ]
     },
     "mountain": {
-        "type": "mountain soil",
+        "type": "Mountain soil",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHA4_idAi6WkfnQdYrjXX5EfVSqXauQUFizuWUh67oog&s",
         "suggestion": [
             {
@@ -155,6 +180,11 @@
                     "Abies spp. (Fir): Fir trees are well-adapted to mountainous terrain and can tolerate rocky soils."
                 ]
             }
+        ],
+        "links": [
+            "https://www.indianetzone.com/24/desert_soils_mountain_soil.htm",
+            "https://byjus.com/question-answer/what-are-the-features-of-forest-or-mountain-soil/",
+            "https://openknowledge.fao.org/handle/20.500.14283/i4704e/#:~:text=Mountain%20soils%20are%20particularly%20susceptible,such%20as%20floods%20and%20landslides."
         ]
     }
 }

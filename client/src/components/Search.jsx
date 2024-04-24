@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Suggestions from './Suggestions'
+import Soil from './Soil'
 
 const Search = () => {
     const [solitype, setsolitype] = useState('black')
@@ -25,6 +26,7 @@ const Search = () => {
             </div>
             <button onClick={()=>setshow(true)} className='getBtn'>Get</button>
         </form>
+        <Soil soil={solitype}/>
         <Suggestions  soil={solitype}/>
     </div>
   )
